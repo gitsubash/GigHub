@@ -194,6 +194,10 @@
     <Compile Include="Migrations\201705050409013_AddForeignKeyPropertyToGig.Designer.cs">
       <DependentUpon>201705050409013_AddForeignKeyPropertyToGig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705050426271_UpdateGigDateTime.cs" />
+    <Compile Include="Migrations\201705050426271_UpdateGigDateTime.Designer.cs">
+      <DependentUpon>201705050426271_UpdateGigDateTime.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -290,6 +294,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705050409013_AddForeignKeyPropertyToGig.resx">
       <DependentUpon>201705050409013_AddForeignKeyPropertyToGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705050426271_UpdateGigDateTime.resx">
+      <DependentUpon>201705050426271_UpdateGigDateTime.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
