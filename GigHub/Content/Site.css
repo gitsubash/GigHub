@@ -100,3 +100,7 @@ h6,
     box-shadow: none; 
 }
 
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
+}
