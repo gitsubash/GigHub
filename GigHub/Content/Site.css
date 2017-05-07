@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 20px;
 }
 
@@ -103,4 +103,52 @@ h6,
 span.field-validation-error {
     color: red;
     font-weight: bold;
+}
+
+
+/******* Page Level Styelse ***********/
+
+.gigs {
+    list-style: none;
+}
+.gigs > li {
+    position: relative;
+    margin-bottom:30px;
+}
+
+.gigs > li .details {
+    position: absolute;
+    left: 70px;
+    top: 0;
+}
+
+    .gigs > li .date {
+        background-color: #428bff;
+        color: white;
+        text-align: center;
+        width: 60px;
+        border-radius: 8px;
+    }
+
+.gigs > li .date .month {
+    text-transform:uppercase;
+    font-size:14px;
+    font-weight:bold;
+    padding:2px 6px;
+}
+
+.gigs > li .date .day {
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+.gigs > li .details .artist {
+    font-weight:bold;
+    display:block;
+}
+
+.gigs > li .details .genre {
+    font-size: 15px;
 }

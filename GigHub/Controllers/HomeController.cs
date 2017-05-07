@@ -20,7 +20,10 @@ namespace GigHub.Controllers
         { 
             //var upcomingGigs = _context.Gigs.Select(i => i.DateTime > DateTime.Now).ToList();
 
-            var upcomingGigs = _context.Gigs.Include(g => g.Artist).Where(g => g.DateTime < DateTime.Now);
+            var upcomingGigs = _context.Gigs
+                .Include(g => g.Artist)
+                .Include(g=> g.Genre)
+                .Where(g => g.DateTime < DateTime.Now);
             return View(upcomingGigs);
         }
 
