@@ -87,9 +87,10 @@ h6,
     border-radius: 5px;
 }
 
+
 .btn {
-    padding: 8px 24px;
-    font-size: 18px;
+    /*padding: 8px 24px;
+    font-size: 18px;*/
     border-radius: 10px;
 }
 
@@ -151,4 +152,5 @@ span.field-validation-error {
 
 .gigs > li .details .genre {
     font-size: 15px;
+    
 }
